@@ -49,8 +49,6 @@ export const fetchUsers = async ({
     );
   }
 
-  // this is another comment
-
   // Apply sorting
   if (sortBy) {
     filteredUsers.sort((a, b) => {
